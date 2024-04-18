@@ -9,11 +9,32 @@ const textContent =
     <p>
     Jukka Keinänen, 30 years old.
     I do C#, JavaScript and web web-development.
+    See my applications:
+    <ul>
+
+    <li>
+    <a href="https://github.com/keinaju/Dogebox/releases">
+    Download my game, implemented with Unity engine!
+    </a>
+    </li>
+
+    <li>
+    <a href="https://libra.up.railway.app">
+    Check out a demo library I made with Express.js and MongoDB. 
+    </a>
+    </li>
+    
+    <li>
     <a href="https://github.com/keinaju">
-    Check out my GitHub!</a>
+    Visit my GitHub!</a>
+    </li>
+    
+    </ul>
+
     I also enjoy jogging, guitar playing and snooker.
     <a href="https://open.spotify.com/artist/4HWHVCTAIO2nmsYUCZ8vVP">
-    You can find my music in Spotify (Jukka Palmu)!</a>
+    You can find my music in Spotify (Jukka Palmu)!
+    </a>
     </p>
     
     <p>
