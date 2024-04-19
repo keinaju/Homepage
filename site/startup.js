@@ -74,3 +74,10 @@ textNode.style.paddingRight = "20px";
 const photoNode = document.getElementById("photoNode");
 photoNode.style.transform = "none";
 photoNode.style.opacity = 1;
+
+//Default all links to open in new tab
+const links = document.querySelectorAll("a");
+for (const link of links) {
+    link.setAttribute("target", "_blank");
+    link.setAttribute("rel", "noopener noreferrer");
+}
