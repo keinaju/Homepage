@@ -16,6 +16,8 @@ const textContent =
     Jukka Keinänen, ${age} years old.
     I do C#, JavaScript and web development.
     See my applications:
+    </p>
+
     <ul>
 
     <li>
@@ -36,7 +38,8 @@ const textContent =
     </li>
     
     </ul>
-
+    
+    <p>
     I also enjoy jogging, guitar playing and snooker.
     <a href="https://open.spotify.com/artist/4HWHVCTAIO2nmsYUCZ8vVP">
     You can find my music in Spotify (Jukka Palmu)!
