@@ -8,7 +8,7 @@ const textContent =
 
     <p>
     Jukka Keinänen, 30 years old.
-    I do C#, JavaScript and web web-development.
+    I do C#, JavaScript and web development.
     See my applications:
     <ul>
 
