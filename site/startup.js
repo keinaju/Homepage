@@ -70,7 +70,7 @@ textNode.innerHTML = textContent;
 textNode.style.transform = "none";
 //Reset opacity
 textNode.style.opacity = 1;
-textNode.style.borderLeft = "2px solid black";
+textNode.style.borderLeft = "1px solid black";
 textNode.style.paddingLeft = "20px";
 textNode.style.paddingRight = "20px";
 
