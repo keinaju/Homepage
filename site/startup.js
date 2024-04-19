@@ -2,12 +2,18 @@
 
 const textNode = document.getElementById("textNode");
 
+//Calculate age
+const today = new Date();
+let age = today.getFullYear() - 1993;
+if (today.getMonth() < 8) age -= 1;
+if (today.getMonth() == 8 && today.getDate() < 8) age -= 1;
+
 const textContent =
     `
     <h1>Hello! My name is Jukka.</h1>
 
     <p>
-    Jukka Keinänen, 30 years old.
+    Jukka Keinänen, ${age} years old.
     I do C#, JavaScript and web development.
     See my applications:
     <ul>
