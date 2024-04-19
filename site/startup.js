@@ -47,7 +47,7 @@ const textContent =
     I have a degree from university of applied sciences,
     automation as the main subject.
     <a href="https://www.theseus.fi/handle/10024/143064">
-    I worked with PDM- and ERP-system data in my thesis.</a>
+    <br>I worked with PDM- and ERP-system data in my thesis.</a>
     </p>
           
     <p>
@@ -67,6 +67,9 @@ textNode.innerHTML = textContent;
 textNode.style.transform = "none";
 //Reset opacity
 textNode.style.opacity = 1;
+textNode.style.borderLeft = "2px solid black";
+textNode.style.paddingLeft = "20px";
+textNode.style.paddingRight = "20px";
 
 const photoNode = document.getElementById("photoNode");
 photoNode.style.transform = "none";
