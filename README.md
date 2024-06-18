@@ -1,4 +1,4 @@
-# Jukka's static homepage with Railway and NGINX
+Railway deployment for my homepage, hosted in Railway + NGINX server. 
 
 By default the `site/` directory gets deployed to Railway as a static site. This can be modified by changing the `Dockerfile`.
 
