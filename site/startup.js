@@ -60,7 +60,7 @@ const textContent =
     </p>
     
     <p>
-    Contact: +35845 130 4993
+    Contact: +35845 78362404
     </p>
     `;
 
