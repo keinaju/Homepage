@@ -28,7 +28,7 @@ const textContent =
 
     <li>
     <a href="https://warmsound.up.railway.app">
-    Check out an online store I made with Express.js! 
+    Check out an online store I made with Node.js and MySQL! 
     </a>
     </li>
     
