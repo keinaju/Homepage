@@ -27,8 +27,8 @@ const textContent =
     </li>
 
     <li>
-    <a href="https://libra.up.railway.app">
-    Check out a demo library I made with Express.js and MongoDB. 
+    <a href="https://warmsound.up.railway.app">
+    Check out an online store I made with Express.js! 
     </a>
     </li>
     
