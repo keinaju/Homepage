@@ -21,8 +21,8 @@ const textContent =
     <ul>
 
     <li>
-    <a href="https://github.com/keinaju/Dogebox/releases">
-    Download my game, implemented with Unity engine!
+    <a href="https://jugibo.itch.io/dogebox">
+    Download my puzzle game, implemented with Unity engine!
     </a>
     </li>
 
