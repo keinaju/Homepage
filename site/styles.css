@@ -1,14 +1,10 @@
 * {
+    box-sizing: border-box;
     font-family: "Manrope", sans-serif;
     font-weight: 350;
     font-style: normal;
     font-size: 25px;
     transition: transform 1.5s, opacity 3.0s;
-}
-
-h1 {
-    font-size: 50px;
-    font-weight: 800;
 }
 
 a {
@@ -18,4 +14,69 @@ a {
 
 a:hover {
     color: magenta;
+}
+
+.grid {
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 1fr;
+    margin: auto;
+    width: 90vw;
+
+    animation-name: fade;
+    animation-duration: 1.0s;
+    animation-timing-function: ease-out;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+img {
+    border-radius: 20px;
+    max-width: 600px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+    .grid {
+        grid-template-columns: 4fr 3fr;
+        width: 80vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+
+    .grid {
+        grid-template-columns: 4fr 3fr;
+        width: 70vw;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .grid {
+        grid-template-columns: 4fr 3fr;
+        width: 60vw;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
